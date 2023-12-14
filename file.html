@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <h1>(❁´◡`❁) My Photo Gallery (●ˇ∀ˇ●)</h1>
+<div class="gallery">
+    <div class="gallery-item" onclick="openLightbox();currentSlide(1)">
+        <img src="images/image1.jpg"   alt="Image 1">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(2)">
+        <img src="images/image2.jpg"   alt="Image 2">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(3)">
+        <img src="images/image3.jpg"  alt="Image 3">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(4)">
+        <img src="images/image6.webp"  alt="Image 4">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(5)">
+        <img src="images/image5.webp"  alt="Image 5">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(6)">
+        <img src="images/image7.webp"  alt="Image 6">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(7)">
+        <img src="images/image8.jpg"  alt="Image 7">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(8)">
+        <img src="images/image12.jpg"  alt="Image 8">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(9)">
+        <img src="images/image10.jpg"  alt="Image 9">
+    </div>
+    <div class="gallery-item" onclick="openLightbox();currentSlide(10)">
+        <img src="images/image11.jpg"  alt="Image 10">
+    </div>
+ 
+</div>
+
+<div id="lightbox" class="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">&times;</span>
+    <div class="lightbox-content">
+        <div class="slide">
+            <img src="images/image1.jpg" alt="Image 1">
+        </div>
+        <div class="slide">
+            <img src="images/image2.jpg" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img src="images/image3.jpg" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="images/image6.webp" alt="Image 4">
+        </div>
+        <div class="slide">
+            <img src="images/image5.webp" alt="Image 5">
+        </div>
+        <div class="slide">
+            <img src="images/image7.webp" alt="Image 6">
+        </div>
+        <div class="slide">
+            <img src="images/image8.jpg" alt="Image 7">
+        </div>
+        <div class="slide">
+            <img src="images/image12.jpg" alt="Image 8">
+        </div>
+        <div class="slide">
+            <img src="images/image10.jpg" alt="Image 9">
+        </div>
+        <div class="slide">
+            <img src="images/image11.jpg" alt="Image 10">
+        </div>
+      
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
